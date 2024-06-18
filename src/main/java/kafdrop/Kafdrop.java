@@ -18,7 +18,6 @@
 
 package kafdrop;
 
-import com.google.common.base.Strings;
 import io.undertow.server.DefaultByteBufferPool;
 import io.undertow.server.HandlerWrapper;
 import io.undertow.server.HttpHandler;

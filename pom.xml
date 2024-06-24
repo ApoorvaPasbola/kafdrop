@@ -316,6 +316,7 @@
                 <filtering>true</filtering>
                 <excludes>
                     <exclude>static/**</exclude>
+                    <exclude>descriptors/*.desc</exclude>
                 </excludes>
             </resource>
             <resource>
@@ -323,6 +324,7 @@
                 <filtering>false</filtering>
                 <includes>
                     <include>static/**</include>
+                    <include>descriptors/*.desc</include>
                 </includes>
             </resource>
         </resources>

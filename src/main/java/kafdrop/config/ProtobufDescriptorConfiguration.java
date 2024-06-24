@@ -54,8 +54,7 @@ public class ProtobufDescriptorConfiguration {
       File path = new File(directory);
 
       // apply filter for listing only .desc file
-      FilenameFilter filter = (dir, name) -> name.endsWith(".desc");
-
+      FilenameFilter filter = (dir, name) -> name.endsWith(".desc") && !name.contains("Enum");
       pathnames = path.list(filter);
       return Arrays.asList(Objects.requireNonNull(pathnames));
     }

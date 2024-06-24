@@ -37,7 +37,7 @@ kafdrop.monitor:
   clientId: Kafdrop
 
 kafka:
-  brokerConnect: localhost:9092
+  brokerConnect: ${KAFKA_BROKERCONNECT:127.0.0.1:9092}
   saslMechanism: "PLAIN"
   securityProtocol: "SASL_PLAINTEXT"
   truststoreFile: "${KAFKA_TRUSTSTORE_FILE:kafka.truststore.jks}"

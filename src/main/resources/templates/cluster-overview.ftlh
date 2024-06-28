@@ -100,6 +100,7 @@
 
     <div id="topics">
         <h3><i class="fa fa-database"></i> Topics&nbsp;&nbsp;&nbsp;<a href="<@spring.url '/acl'/>"><i class="fa fa-lock"></i> ACLs</a></h3>
+        <p> <a href="<@spring.url '/mappings'/>"> Proto Message Mapping </a> </p>
         <table class="table table-bordered">
             <thead>
             <tr>

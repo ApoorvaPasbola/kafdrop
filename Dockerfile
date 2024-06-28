@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-alpine
+FROM amazoncorretto:17-alpine-jdk
 
 LABEL authors="apoorva.pasbola@siemens.com"
 
